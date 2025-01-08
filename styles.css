@@ -47,6 +47,7 @@ a {
   align-items: center;
   background-color: #1F2937;
   padding: 12px 142px;
+  gap: 56px;
 }
 
 /* changes margins for whole section */
