@@ -21,7 +21,7 @@ a {
   justify-content: space-between;
   align-items: center;
   background-color: #1F2937;
-  padding: 8px;
+  padding: 12px 142px;
 }
 
 .header-text {
@@ -37,4 +37,43 @@ a {
 .header-links ul {
   display: flex;
   gap: 16px;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1F2937;
+  padding: 12px 142px;
+}
+
+/* changes margins for whole section */
+.hero-section .left {
+  margin: 56px 0px;
+}
+
+.hero-header-text {
+  color: #F9FAF8;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.hero-body-text {
+  color: #E5E7EB;
+  font-size: 18px;
+  margin: 12px 0px;
+}
+
+.button-solid button {
+  color: #F9FAF8;
+  font-size: 18px;
+  padding: 8px 28px;
+  border-radius: 12px;
+  border: none;
+  background-color: #3882F6;
+}
+
+/* make it take up the appropriate amount of space */
+.hero-image {
+  background-color: #E5E7EB;
 }
