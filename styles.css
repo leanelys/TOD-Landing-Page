@@ -144,3 +144,38 @@ a {
   text-align: right;
   margin-top: 12px;
 }
+
+.action-section {
+  display: flex;
+  justify-content: center;
+}
+
+.action-card {
+  display: flex;
+  align-items: center;
+  background-color: #3882F6;
+  border-radius: 8px;
+  padding: 32px 128px;
+  margin: 56px 0px;
+}
+
+.action-header {
+  color: #F9FAF8;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.action-body {
+  color: #E5E7EB;
+}
+
+.button-outline button {
+  color: #F9FAF8;
+  font-size: 18px;
+  padding: 8px 28px;
+  border-radius: 12px;
+  border: 2px solid #E5E7EB;
+  background-color: #3882F6;
+  margin-left: 68px;
+  white-space: nowrap;
+}
