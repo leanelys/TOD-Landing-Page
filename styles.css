@@ -93,6 +93,7 @@ a {
   font-size: 36px;
   font-weight: 900;
   margin-bottom: 18px;
+  text-align: center;
 }
 
 .info-card {
@@ -102,6 +103,7 @@ a {
   align-items: center;
   height: 250px;
   width: 150px;
+  margin: 0px 56px;
 }
 
 .info-card-img {
@@ -119,7 +121,8 @@ a {
 
 .cards-container {
   display: flex;
-  gap: 68px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .quote-section {
