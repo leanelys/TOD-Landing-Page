@@ -179,3 +179,12 @@ a {
   margin-left: 68px;
   white-space: nowrap;
 }
+
+.footer {
+  color: #E5E7EB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+  background-color: #1F2937;
+}
